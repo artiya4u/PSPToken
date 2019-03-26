@@ -5,13 +5,13 @@ To testnet
 npm install -g truffle
 cd PSPToken
 npm install
-export  export MNEMONIC='this is your testnet ether wallet seed words for deploy on rinkeby'
+export MNEMONIC='this is your testnet ether wallet seed words for deploy on rinkeby'
 truffle migrate --reset --network rinkeby
 ```
 
 To mainnet
 ```bash
-export  export MNEMONIC='this is your real ether wallet seed words for deploy on mainnet'
+export MNEMONIC='this is your real ether wallet seed words for deploy on mainnet'
 truffle migrate --reset --network mainnet
 ```
 
